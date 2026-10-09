@@ -1,7 +1,7 @@
 
 # Proyecto Integrador - Gestión de Entidad Financiera
 
-## Descripción
+----------------------------------------------------------------------
 
 Este proyecto consiste en una aplicación web para administrar información de usuarios y empleados de una entidad financiera.
 
@@ -48,7 +48,7 @@ En ambos módulos se validan los campos obligatorios, el formato básico del cor
 
 El código está organizado en las siguientes clases:
 
-```text
+text
 src/main/java/com/example/
 |
 |-- Application.java
@@ -161,7 +161,7 @@ El proyecto incluye Maven Wrapper, por lo que no es necesario instalar Maven por
 
 ## Configuración de PostgreSQL
 
-Primero se debe crear una base de datos llamada `proyecto_integrador`.
+Primero se debe crea una base de datos llamada `proyecto_integrador`.
 
 La configuración de conexión utilizada durante el desarrollo fue:
 
@@ -210,7 +210,7 @@ CREATE TABLE IF NOT EXISTS empleados (
 );
 ```
 
-## Ejecución del proyecto
+## Como se ejecuta el proyecto?
 
 Primero se descarga o clona el repositorio de GitHub.
 
@@ -238,10 +238,6 @@ http://localhost:8080
 
 Allí aparecen las pestañas Usuarios y Empleados, desde las cuales se pueden realizar las operaciones CRUD.
 
-## Pruebas de funcionamiento
-
-Durante el desarrollo probamos la conexión con PostgreSQL y las operaciones de los dos módulos.
-
 Las pruebas incluyeron:
 
 - Crear registros desde los formularios.
@@ -255,18 +251,6 @@ También se utilizó `clean compile` para comprobar la compilación del código 
 
 Estas verificaciones se realizaron manualmente durante el desarrollo.
 
-## Control de versiones
-
-El proyecto utiliza Git para registrar los cambios realizados durante su desarrollo.
-
-El código se publica en GitHub para que los integrantes del equipo puedan consultarlo y trabajar sobre la misma versión.
-
-El archivo `.gitignore` permite excluir archivos generados automáticamente, como la carpeta `target`, las dependencias locales de Vaadin y determinadas configuraciones privadas.
-
 ## Integrantes
 
-Agregar aquí los nombres de los integrantes del equipo.
-
-## Licencia
-
-La información de la licencia se encuentra en el archivo `LICENSE.md`.
+Daniel Gil Rodriguez
